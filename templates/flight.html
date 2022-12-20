@@ -1,0 +1,204 @@
+{% extends "layout.html" %}
+{% block title %}Flight{% endblock %}
+{% block style %}
+
+<style>
+    #loader {
+        border: 12px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 12px solid #0085a1;
+        width: 70px;
+        height: 70px;
+        animation: spin 1s linear infinite;
+        display: none !important;
+        
+
+    }
+      
+    @keyframes spin {
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+      
+    .center {
+        position: absolute;
+        top: 120%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border: 2px solid red;
+    }
+
+</style>
+{% endblock %}
+
+{% block body %}
+
+        <!-- Page Header-->
+
+        <header class="masthead" style="background-image: url('{{ url_for('static', filename='assets/img/img2.jpeg')}}')">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="page-heading">
+                            <h1>Flights</h1>
+                            <span class="subheading">Search for best flights as per your convenience.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+                
+                <div class="wrapper bg-white">
+
+                    <form action="/search_flights" method="POST">
+
+                        <div class="form-group d-sm-flex margin">
+                            <div class="d-flex align-items-center flex-fill me-sm-1 my-sm-0 my-4 border-bottom position-relative">
+                                <input type="text" required placeholder="From" class="form-control" name="src">
+                                <div class="label" id="from"></div>
+                                <span class="fas fa-dot-circle text-muted"></span>
+                            </div>
+                            <div class="d-flex align-items-center flex-fill ms-sm-1 my-sm-0 my-4 border-bottom position-relative">
+                                <input type="text" required placeholder="To" class="form-control" name="dst">
+                                <div class="label" id="to"></div> 
+                                <span class="fas fa-map-marker text-muted"></span>
+                            </div>
+                        </div>
+                        <div class="form-group d-sm-flex margin">
+                            <div class="d-flex align-items-center flex-fill me-sm1 my-sm-0 border-bottom position-relative">
+                                <input type="date" required placeholder="Depart Date" class="form-control" name="src_date">
+                                <div class="label" id="depart"></div>
+                            </div>
+                            <div class="d-flex align-items-center flex-fill ms-sm-1 my-sm-0 my-4 border-bottom position-relative">
+                                <input type="date" required placeholder="Return Date" class="form-control" name="dst_date">
+                                <div class="label" id="return"></div>
+                            </div>
+
+
+                        </div>
+                        <!-- resource link -->
+                        <!-- https://getbootstrap.com/docs/5.2/forms/checks-radios/ -->
+                        <!-- https://coder-coder.com/display-divs-side-by-side/#:~:text=To%20position%20the%20divs%20side,space%20for%20both%20to%20fit. -->
+
+                        <div class="flex-container">
+                            <div class="form-check" class="flex-child best">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" value="best" id="flexRadioDefault1" checked>
+                            <label class="form-check-label" for="flexRadioDefault1">
+                              Best 
+
+                            </label>
+                          </div>
+                          <div class="form-check" class="flex-child cheapest">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" value="cheapest" id="flexRadioDefault2" >
+                            <label class="form-check-label" for="flexRadioDefault2">
+                              Cheapest
+                            </label>
+                          </div>
+                          <div class="form-check" class="flex-child quickest">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" value="quickest" id="flexRadioDefault2" >
+                            <label class="form-check-label" for="flexRadioDefault2">
+                              Quickest
+                            </label>
+                          </div>
+
+                        </div> <br> <br>
+
+
+                        <input class="form-check-input"  type="checkbox" id="email_subsribed" name="email_subsribed" value="email_subsribed">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            e-mail flight details
+                          </label>
+                        <br><br>
+                            <div class="d-flex align-items-center flex-fill me-sm-1 my-sm-0 my-4 border-bottom position-relative">
+                                <input type="text"  placeholder="E-mail address" class="form-control" name="subsriber_email">
+                                <div class="label" id="email"></div>
+
+                            </div>
+                        <br>
+                        <div id="loader" class="center" ></div>        
+                        <input onclick="setTimeout(myFunction(), 20000)" class="btn btn-primary rounded-0 d-flex justify-content-center text-center p-3" id="submitButton" type="submit" value="Search flights">
+                        
+                    </form>
+            
+                </div>
+
+                
+
+
+
+
+                <div id="table_container">
+                
+                
+
+                {{email}}
+                {% for table in tables %}
+                            
+                {{ table|safe }}
+                
+                {% endfor %}
+                <!-- <div id="loader" class="center" ></div> -->
+                </div>
+                
+
+                <!-- custom loader  -->
+
+                <!-- <div id="loader" class="center" ></div> -->
+                
+                <script>
+                    function myFunction() 
+                    
+                    {
+                    
+                    // window.alert()    
+                    // document.querySelector("#loader").style.display = "visible";  
+                    // document.getElementById("loader").style.display = "visible";  
+                    const box = document.getElementById('loader');
+
+                    box.style.setProperty('display', 'block', 'important');
+                    
+                    };
+
+
+
+                    // document.onreadystatechange = function() {
+                    //     if (document.readyState !== "complete") 
+                    //     {   
+                    //         // window.alert();
+                    //         // document.querySelector(
+                    //         //   "body").style.visibility = "hidden";
+                    //         document.querySelector(
+                    //           "#loader").style.visibility = "visible";
+                    //     } 
+                        
+                    //     if (document.readyState !== "interactive") 
+                    //     {
+                    //         document.querySelector(
+                    //           "#loader").style.display = "visible";
+                    //         // document.querySelector(
+                    //         //   "body").style.visibility = "visible";
+                    //     }
+                    // };
+
+
+
+
+                </script>
+                <!-- <p>Source chose: {{source}}</p>
+                <p>Destination chose: {{destination}}</p>
+                <p>Source date chose: {{depart_date}}</p>
+                <p>Destination date chose: {{return_date}}</p> -->
+
+<!-- 
+
+{% for table in tables %}
+
+{{ table|safe }}
+
+{% endfor %} -->
+
+       
+{% endblock %}

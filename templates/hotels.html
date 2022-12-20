@@ -1,0 +1,127 @@
+{% extends "layout.html" %}
+{% block title %}Hotels{% endblock %}
+
+{% block body %}
+
+        <!-- Page Header-->
+
+        <header class="masthead" style="background-image: url('{{ url_for('static', filename='assets/img/hotel.jpeg')}}')">
+        
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="page-heading">
+                            <h1>Hotels</h1>
+                            <span class="subheading">Find out the best hotels with us.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Main Content-->
+        <main class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                   
+                            <div class="wrapper bg-white">
+
+                                <form action="/search_hotels" method="POST">
+            
+                                    <div class="form-group d-sm-flex margin">
+                                        <div class="d-flex align-items-center flex-fill me-sm-1 my-sm-0 my-4 border-bottom position-relative">
+                                            <!-- <input type="text" required placeholder="Enter a city" class="form-control" name="city"> -->
+                                            <select style="width: 100%; border-color: white; color: #999;" id="city" name="city">
+                                            <!-- <span class="fas fa-map-marker text-muted"></span> -->
+                                            <option value="" class="form-control" disabled selected hidden style="color:#999; width: auto" >select city <i class="fa fa-map-marker"></i></option>
+                                                <option value="Mumbai">Mumbai</option>
+                                                  <option value="Delhi">Delhi</option>
+                                                  <option value="Bangalore">Bangalore</option>
+                                                  <option value="Chennai">Chennai</option>
+                                                  <option value="Hyderabad">Hyderabad</option>
+                                                  <option value="Ahmedabad">Ahmedabad</option>
+                                                  <option value="Kolkata">Kolkata</option>
+                                                  <option value="Surat">Surat</option>
+                                                  <option value="Pune">Pune</option>
+                                                  <option value="Jaipur">Jaipur</option>
+                                                  <option value="Thrissur">Thrissur</option>
+                                                  <option value="Lucknow">Lucknow</option>
+                                                  <option value="Kanpur">Kanpur</option>
+                                                  <option value="Amritsar">Amritsar</option>
+                                                  <option value="Indore">Indore</option>
+                                                  <option value="Agra">Agra</option>
+                                                  <option value="Madurai">Madurai</option>
+                                                  <option value="Goa">Goa</option>
+                                                  <option value="Rajkot">Rajkot</option>
+                                                  <option value="Varanasi">Varanasi</option>
+                                                  <option value="Srinagar">Srinagar</option>
+                                                  <option value="Jodhpur">Jodhpur</option>
+                                                  <option value="Chandigarh">Chandigarh</option>
+                                                  <option value="Thiruvanthipuram">Thiruvanthipuram</option>
+                                                  <option value="Guwahati">Guwahati</option>
+                                                  <option value="Mysore">Mysore</option>
+                                                  <option value="Bhubaneswar">Bhubaneswar</option>
+                                                  <option value="Kochi">Kochi</option>
+                                                  <option value="Mangalore">Mangalore</option>
+                                                  <option value="Udaipur">Udaipur</option>
+                                                  <option value="Haridwar">Haridwar</option>
+                                                  <option value="Puri">Puri</option>
+                                                  <option value="Shimla">Shimla</option>
+                                                  <option value="Panchkula">Panchkula</option>
+                                                  <option value="Darjeeling">Darjeeling</option>
+                                                  <option value="Rishikesh">Rishikesh</option>
+                                                  <option value="Gangtok">Gangtok</option>
+                                                  <option value="Ooty">Ooty</option>
+                                                  <option value="Jaisalmer">Jaisalmer</option>
+                                                  <option value="Nainital">Nainital</option>
+                                                  <option value="Munnar">Munnar</option>
+                                                  <option value="Manali">Manali</option>
+                                              </select>
+                                            <span class="fas fa-map-marker text-muted"></span>
+                                        </div> 
+                                    </div>
+                                    <div class="form-group d-sm-flex margin">
+                                        <div class="d-flex align-items-center flex-fill me-sm1 my-sm-0 border-bottom position-relative">
+                                            <input type="date"  placeholder="Check-in Date" class="form-control" name="checkin_date">
+                                            <div class="label" id="checkin-date"></div>
+
+
+                                        </div>
+                                        <div class="d-flex align-items-center flex-fill ms-sm-1 my-sm-0 my-4 border-bottom position-relative">
+                                            <input type="date"  placeholder="Check-out Date" class="form-control" name="checkout_date">
+                                            <div class="label" id="checkout-date"></div>
+                                            
+                                        </div>
+                                    </div>
+                                   
+                                    <input class="btn btn-primary rounded-0 d-flex justify-content-center text-center p-3" id="submitButton" type="submit" value="Search hotels">
+                                    
+                                </form>
+                        
+                            </div>
+                            <!-- Hotel Data Form -->
+
+                           
+
+
+
+
+                            <!-- <p>City Entered: {{destination}}</p> -->
+                            <br><br>
+                            {% for table in tables %}
+                            
+                            {{ table|safe }}
+                            
+                            {% endfor %}
+                            
+                    
+                    
+                    
+                    
+                    
+                    </div>
+                </div>
+            </div>
+        </main>
+       
+{% endblock %}

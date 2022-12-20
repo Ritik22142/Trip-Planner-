@@ -1,0 +1,52 @@
+,Out Date,Out Day,Out Duration,Out Cities,#Out Stops,Out Stop Cities,Out Time,Out Airline,Return Date,Return Day,Return Duration,Return Cities,#Return Stops,Return Stop Cities,Return Time,Return Airline,Price($),Filter
+2,12/21,Wed,24h07m,MSY‐DEL,2,DTW&CDG,11:43 am – 11:20 pm +1,Delta,12/28,Wed,34h09m,DEL‐MSY,2,CDG&ATL,1:10 am – 11:49 pm,Delta,2234,cheap
+7,12/21,Wed,24h07m,MSY‐DEL,2,DTW&CDG,11:43 am – 11:20 pm +1,Delta,12/28,Wed,26h54m,DEL‐MSY,2,CDG&ATL,1:10 am – 4:34 pm,Delta,2284,cheap
+9,12/21,Wed,24h07m,MSY‐DEL,2,DTW&CDG,11:43 am – 11:20 pm +1,Delta,12/28,Wed,28h39m,DEL‐MSY,2,CDG&ATL,1:10 am – 6:19 pm,Delta,2284,cheap
+11,12/21,Wed,24h07m,MSY‐DEL,2,DTW&CDG,11:43 am – 11:20 pm +1,Delta,12/28,Wed,30h37m,DEL‐MSY,2,CDG&ATL,1:10 am – 8:17 pm,Delta,2284,cheap
+12,12/21,Wed,24h07m,MSY‐DEL,2,DTW&CDG,11:43 am – 11:20 pm +1,Delta,12/28,Wed,32h09m,DEL‐MSY,2,CDG&ATL,1:10 am – 9:49 pm,Delta,2284,cheap
+10,12/21,Wed,24h07m,MSY‐DEL,2,DTW&CDG,11:43 am – 11:20 pm +1,Delta,12/28,Wed,30h00m,DEL‐MSY,2,CDG&JFK,1:10 am – 7:40 pm,Delta,2334,cheap
+8,12/24,Sat,22h37m,MSY‐DEL,2,ORD&ZRH,2:38 pm – 12:45 am +2,"United Airlines, SWISS",12/28,Wed,28h15m,DEL‐MSY,2,MUC&EWR,1:50 am – 6:35 pm,Lufthansa,2422,cheap
+6,12/23,Fri,21h13m,MSY‐DEL,2,EWR&ZRH,4:02 pm – 12:45 am +2,"United Airlines, SWISS",12/28,Wed,28h15m,DEL‐MSY,2,MUC&EWR,1:50 am – 6:35 pm,Lufthansa,2422,cheap
+1,12/23,Fri,21h13m,MSY‐DEL,2,EWR&ZRH,4:02 pm – 12:45 am +2,"United Airlines, SWISS",12/27,Tue,25h56m,DEL‐MSY,2,FRA&IAH,3:35 am – 6:01 pm,"Lufthansa, United Airlines",2429,cheap
+3,12/23,Fri,21h13m,MSY‐DEL,2,EWR&ZRH,4:02 pm – 12:45 am +2,"United Airlines, SWISS",12/27,Tue,25h56m,DEL‐MSY,2,FRA&IAH,3:35 am – 6:01 pm,Lufthansa,2429,cheap
+4,12/24,Sat,22h37m,MSY‐DEL,2,ORD&ZRH,2:38 pm – 12:45 am +2,"United Airlines, SWISS",12/27,Tue,25h56m,DEL‐MSY,2,FRA&IAH,3:35 am – 6:01 pm,"Lufthansa, United Airlines",2429,cheap
+5,12/24,Sat,22h37m,MSY‐DEL,2,ORD&ZRH,2:38 pm – 12:45 am +2,"United Airlines, SWISS",12/27,Tue,25h56m,DEL‐MSY,2,FRA&IAH,3:35 am – 6:01 pm,Lufthansa,2429,cheap
+14,12/21,Wed,24h07m,MSY‐DEL,2,DTW&CDG,11:43 am – 11:20 pm +1,Delta,12/28,Wed,30h00m,DEL‐MSY,2,CDG&JFK,1:10 am – 7:40 pm,Delta,2495,cheap
+13,12/21,Wed,24h07m,MSY‐DEL,2,DTW&CDG,11:43 am – 11:20 pm +1,Delta,12/29,Thu,29h59m,DEL‐MSY,2,AMS&ATL,3:20 am – 9:49 pm,Delta,2495,cheap
+16,12/22,Thu,23h08m,MSY‐DEL,2,CLT&LHR,2:37 pm – 1:15 am +2,British Airways,12/31,Sat,26h15m,DEL‐MSY,1,LHR,3:20 am – 6:05 pm,British Airways,3059,cheap
+15,12/20,Tue,21h28m,MSY‐DEL,2,DCA&JFK,12:52 pm – 9:50 pm +1,American Airlines,12/29,Thu,23h47m,DEL‐MSY,2,JFK&DCA,11:55 pm – 12:12 pm +1,American Airlines,3343,cheap
+0,12/21,Wed,35h43m,MSY‐DEL,2,JFK&DOH,9:12 am – 8:25 am +2,Qatar Airways,12/29,Thu,27h34m,DEL‐MSY,1,JFK,2:05 am – 6:09 pm,"Air India, JetBlue",3595,cheap
+0,12/21,Wed,35h43m,MSY‐DEL,2,JFK&DOH,9:12 am – 8:25 am +2,Qatar Airways,12/29,Thu,27h34m,DEL‐MSY,1,JFK,2:05 am – 6:09 pm,"Air India, JetBlue",3595,best
+1,12/23,Fri,21h13m,MSY‐DEL,2,EWR&ZRH,4:02 pm – 12:45 am +2,"United Airlines, SWISS",12/27,Tue,25h56m,DEL‐MSY,2,FRA&IAH,3:35 am – 6:01 pm,"Lufthansa, United Airlines",2429,best
+2,12/21,Wed,24h07m,MSY‐DEL,2,DTW&CDG,11:43 am – 11:20 pm +1,Delta,12/28,Wed,34h09m,DEL‐MSY,2,CDG&ATL,1:10 am – 11:49 pm,Delta,2234,best
+3,12/23,Fri,21h13m,MSY‐DEL,2,EWR&ZRH,4:02 pm – 12:45 am +2,"United Airlines, SWISS",12/27,Tue,25h56m,DEL‐MSY,2,FRA&IAH,3:35 am – 6:01 pm,Lufthansa,2429,best
+4,12/24,Sat,22h37m,MSY‐DEL,2,ORD&ZRH,2:38 pm – 12:45 am +2,"United Airlines, SWISS",12/27,Tue,25h56m,DEL‐MSY,2,FRA&IAH,3:35 am – 6:01 pm,"Lufthansa, United Airlines",2429,best
+5,12/24,Sat,22h37m,MSY‐DEL,2,ORD&ZRH,2:38 pm – 12:45 am +2,"United Airlines, SWISS",12/27,Tue,25h56m,DEL‐MSY,2,FRA&IAH,3:35 am – 6:01 pm,Lufthansa,2429,best
+6,12/23,Fri,21h13m,MSY‐DEL,2,EWR&ZRH,4:02 pm – 12:45 am +2,"United Airlines, SWISS",12/28,Wed,28h15m,DEL‐MSY,2,MUC&EWR,1:50 am – 6:35 pm,Lufthansa,2422,best
+7,12/21,Wed,24h07m,MSY‐DEL,2,DTW&CDG,11:43 am – 11:20 pm +1,Delta,12/28,Wed,26h54m,DEL‐MSY,2,CDG&ATL,1:10 am – 4:34 pm,Delta,2284,best
+8,12/24,Sat,22h37m,MSY‐DEL,2,ORD&ZRH,2:38 pm – 12:45 am +2,"United Airlines, SWISS",12/28,Wed,28h15m,DEL‐MSY,2,MUC&EWR,1:50 am – 6:35 pm,Lufthansa,2422,best
+9,12/21,Wed,24h07m,MSY‐DEL,2,DTW&CDG,11:43 am – 11:20 pm +1,Delta,12/28,Wed,28h39m,DEL‐MSY,2,CDG&ATL,1:10 am – 6:19 pm,Delta,2284,best
+10,12/21,Wed,24h07m,MSY‐DEL,2,DTW&CDG,11:43 am – 11:20 pm +1,Delta,12/28,Wed,30h00m,DEL‐MSY,2,CDG&JFK,1:10 am – 7:40 pm,Delta,2334,best
+11,12/21,Wed,24h07m,MSY‐DEL,2,DTW&CDG,11:43 am – 11:20 pm +1,Delta,12/28,Wed,30h37m,DEL‐MSY,2,CDG&ATL,1:10 am – 8:17 pm,Delta,2284,best
+12,12/21,Wed,24h07m,MSY‐DEL,2,DTW&CDG,11:43 am – 11:20 pm +1,Delta,12/28,Wed,32h09m,DEL‐MSY,2,CDG&ATL,1:10 am – 9:49 pm,Delta,2284,best
+13,12/21,Wed,24h07m,MSY‐DEL,2,DTW&CDG,11:43 am – 11:20 pm +1,Delta,12/29,Thu,29h59m,DEL‐MSY,2,AMS&ATL,3:20 am – 9:49 pm,Delta,2495,best
+14,12/21,Wed,24h07m,MSY‐DEL,2,DTW&CDG,11:43 am – 11:20 pm +1,Delta,12/28,Wed,30h00m,DEL‐MSY,2,CDG&JFK,1:10 am – 7:40 pm,Delta,2495,best
+15,12/20,Tue,21h28m,MSY‐DEL,2,DCA&JFK,12:52 pm – 9:50 pm +1,American Airlines,12/29,Thu,23h47m,DEL‐MSY,2,JFK&DCA,11:55 pm – 12:12 pm +1,American Airlines,3343,best
+16,12/22,Thu,23h08m,MSY‐DEL,2,CLT&LHR,2:37 pm – 1:15 am +2,British Airways,12/31,Sat,26h15m,DEL‐MSY,1,LHR,3:20 am – 6:05 pm,British Airways,3059,best
+1,12/23,Fri,21h13m,MSY‐DEL,2,EWR&ZRH,4:02 pm – 12:45 am +2,"United Airlines, SWISS",12/27,Tue,25h56m,DEL‐MSY,2,FRA&IAH,3:35 am – 6:01 pm,"Lufthansa, United Airlines",2429,fast
+3,12/23,Fri,21h13m,MSY‐DEL,2,EWR&ZRH,4:02 pm – 12:45 am +2,"United Airlines, SWISS",12/27,Tue,25h56m,DEL‐MSY,2,FRA&IAH,3:35 am – 6:01 pm,Lufthansa,2429,fast
+6,12/23,Fri,21h13m,MSY‐DEL,2,EWR&ZRH,4:02 pm – 12:45 am +2,"United Airlines, SWISS",12/28,Wed,28h15m,DEL‐MSY,2,MUC&EWR,1:50 am – 6:35 pm,Lufthansa,2422,fast
+15,12/20,Tue,21h28m,MSY‐DEL,2,DCA&JFK,12:52 pm – 9:50 pm +1,American Airlines,12/29,Thu,23h47m,DEL‐MSY,2,JFK&DCA,11:55 pm – 12:12 pm +1,American Airlines,3343,fast
+8,12/24,Sat,22h37m,MSY‐DEL,2,ORD&ZRH,2:38 pm – 12:45 am +2,"United Airlines, SWISS",12/28,Wed,28h15m,DEL‐MSY,2,MUC&EWR,1:50 am – 6:35 pm,Lufthansa,2422,fast
+4,12/24,Sat,22h37m,MSY‐DEL,2,ORD&ZRH,2:38 pm – 12:45 am +2,"United Airlines, SWISS",12/27,Tue,25h56m,DEL‐MSY,2,FRA&IAH,3:35 am – 6:01 pm,"Lufthansa, United Airlines",2429,fast
+5,12/24,Sat,22h37m,MSY‐DEL,2,ORD&ZRH,2:38 pm – 12:45 am +2,"United Airlines, SWISS",12/27,Tue,25h56m,DEL‐MSY,2,FRA&IAH,3:35 am – 6:01 pm,Lufthansa,2429,fast
+16,12/22,Thu,23h08m,MSY‐DEL,2,CLT&LHR,2:37 pm – 1:15 am +2,British Airways,12/31,Sat,26h15m,DEL‐MSY,1,LHR,3:20 am – 6:05 pm,British Airways,3059,fast
+2,12/21,Wed,24h07m,MSY‐DEL,2,DTW&CDG,11:43 am – 11:20 pm +1,Delta,12/28,Wed,34h09m,DEL‐MSY,2,CDG&ATL,1:10 am – 11:49 pm,Delta,2234,fast
+9,12/21,Wed,24h07m,MSY‐DEL,2,DTW&CDG,11:43 am – 11:20 pm +1,Delta,12/28,Wed,28h39m,DEL‐MSY,2,CDG&ATL,1:10 am – 6:19 pm,Delta,2284,fast
+10,12/21,Wed,24h07m,MSY‐DEL,2,DTW&CDG,11:43 am – 11:20 pm +1,Delta,12/28,Wed,30h00m,DEL‐MSY,2,CDG&JFK,1:10 am – 7:40 pm,Delta,2334,fast
+11,12/21,Wed,24h07m,MSY‐DEL,2,DTW&CDG,11:43 am – 11:20 pm +1,Delta,12/28,Wed,30h37m,DEL‐MSY,2,CDG&ATL,1:10 am – 8:17 pm,Delta,2284,fast
+12,12/21,Wed,24h07m,MSY‐DEL,2,DTW&CDG,11:43 am – 11:20 pm +1,Delta,12/28,Wed,32h09m,DEL‐MSY,2,CDG&ATL,1:10 am – 9:49 pm,Delta,2284,fast
+13,12/21,Wed,24h07m,MSY‐DEL,2,DTW&CDG,11:43 am – 11:20 pm +1,Delta,12/29,Thu,29h59m,DEL‐MSY,2,AMS&ATL,3:20 am – 9:49 pm,Delta,2495,fast
+14,12/21,Wed,24h07m,MSY‐DEL,2,DTW&CDG,11:43 am – 11:20 pm +1,Delta,12/28,Wed,30h00m,DEL‐MSY,2,CDG&JFK,1:10 am – 7:40 pm,Delta,2495,fast
+7,12/21,Wed,24h07m,MSY‐DEL,2,DTW&CDG,11:43 am – 11:20 pm +1,Delta,12/28,Wed,26h54m,DEL‐MSY,2,CDG&ATL,1:10 am – 4:34 pm,Delta,2284,fast
+0,12/21,Wed,35h43m,MSY‐DEL,2,JFK&DOH,9:12 am – 8:25 am +2,Qatar Airways,12/29,Thu,27h34m,DEL‐MSY,1,JFK,2:05 am – 6:09 pm,"Air India, JetBlue",3595,fast
