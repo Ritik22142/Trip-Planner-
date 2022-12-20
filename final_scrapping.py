@@ -3,16 +3,19 @@ from random import randint
 import pandas as pd
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.chrome.options import Options
 
 
 # chromedriver controls the browser on which the website to be scrapped will opened from backend 
 # Change this to the system's chromedriver path
-chromedriver_path="C:/Users/RITIK AGRAWAL/Desktop/Mtech 1st sem/DPM/dpm project/WEB scrapping/flight_scraper/chromedriver.exe"
-
+# chromedriver_path="C:/Users/RITIK AGRAWAL/Desktop/Mtech 1st sem/DPM/dpm project/WEB scrapping/flight_scraper/chromedriver.exe"
 
 def start_kayak(city_from, city_to, date_start, date_end):
     global driver
-    driver = webdriver.Chrome(executable_path=chromedriver_path)
+    chrome_options = Options()
+    chrome_options.add_argument("--headless")
+    chrome_options.add_argument('--no-sandbox')
+    driver = webdriver.Chrome('/usr/bin/chromedriver', options=chrome_options)
 
     kayak = ('https://www.kayak.com/flights/' + city_from + '-' + city_to +
              '/' + date_start + '-flexible/' + date_end + '-flexible?sort=bestflight_a')
