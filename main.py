@@ -293,7 +293,7 @@ def about():
 # app.run(debug=True)
 
 # Running the application on this system as host server. All the device connected with the same network can access the application remotely on their device.
-app.run(debug=True)
+app.run(debug=True, host="0.0.0.0", port=8003)
 # app.run(debug=True, host="143.244.135.235",port=8003)
 
 
